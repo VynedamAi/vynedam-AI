@@ -1,0 +1,27 @@
+.legal-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  color: #060f21;
+  font-family: 'Inter', sans-serif;
+}
+
+.legal-container h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.legal-container h2 {
+  margin-top: 25px;
+  font-size: 22px;
+  color: #9f7aea;
+}
+
+.legal-container p {
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #cfcfcf;
+}
+.body{
+    background: #060f21;
+}

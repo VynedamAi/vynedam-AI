@@ -1,0 +1,138 @@
+
+
+.email-form {
+  width: 2000px;       /* increase width */
+  max-width: 100%;     /* responsive on small screens */
+  padding: 40px;      /* increase padding */
+  background-color: #ffffff; /* optional: make it stand out */
+  border-radius: 20px; /* rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* soft shadow */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;          /* space between inputs */
+  margin: 50px auto;  /* center horizontally with some top margin */
+}
+.email-form h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #333;
+}
+
+.email-form input {
+  width: 250px;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.email-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 250px;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #34A853;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.email-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.email-btn:hover {
+  background-color: #2c8c47;
+}
+.email-login-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+  overflow: hidden;
+}
+
+/* Floating letters container */
+.left-letters {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Individual letters */
+.letters-container .letter {
+  position: absolute;
+  user-select: none;
+  font-family: monospace;
+  opacity: 0.05;
+  transition: transform 0.5s;
+}
+
+/* Form styles */
+.email-form {
+  position: relative;
+  align-items: center;
+  z-index: 1; /* above letters */
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.email-form h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #111;
+  padding: 20px;
+}
+
+.email-form input {
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+
+  padding: 20px;
+}
+
+.email-btn {
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: none;
+  background: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 20px;
+}
+
+.email-btn:hover {
+  background: #218838;
+}
+
+.switch-method {
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+  cursor: pointer;
+  text-decoration: underline;
+}
